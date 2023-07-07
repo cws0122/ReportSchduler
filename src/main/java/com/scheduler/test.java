@@ -28,7 +28,7 @@ public class test {
             scheduler.scheduleJob(jobDetail, trigger);
             
             scheduler.start();
-            Thread.sleep(60000);
+            Thread.sleep(1000);
             scheduler.shutdown();
 
 
